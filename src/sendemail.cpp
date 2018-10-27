@@ -1,3 +1,4 @@
+#include "Arduino.h"
 #include "sendemail.h"
 
 SendEmail::SendEmail(const String& host, const int port, const String& user, const String& passwd, const int timeout, const bool ssl) :

@@ -1,8 +1,9 @@
 #ifndef __SENDEMAIL_H
 #define __SENDEMAIL_H
 
-//#define DEBUG_EMAIL_PORT
+#define DEBUG_EMAIL_PORT Serial
 
+#include "Arduino.h"
 #include <WiFiClient.h>
 #include <WiFiClientSecure.h>
 #include <base64.h>
