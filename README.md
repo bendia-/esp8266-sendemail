@@ -11,3 +11,4 @@ plain no auth:<br>
   SendEmail e("mail.example.com", 25, "", "", 5000, false);<br>
   e.send("test@example.com", "me@example.com", "subject", "message");<br>
 
+based on gpepe work https://github.com/gpepe/esp8266-sendemail
